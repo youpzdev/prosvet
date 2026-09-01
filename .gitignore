@@ -1,0 +1,17 @@
+*.zip
+*.exe
+*.msi
+*.7z
+checksums.txt
+
+build/
+dist/
+tmp/
+
+.vs/
+.idea/
+*.user
+
+Thumbs.db
+desktop.ini
+.DS_Store
