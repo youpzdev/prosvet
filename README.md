@@ -20,7 +20,7 @@
 
 ## Установка
 
-1. Скачайте `prosvet-0.1.0.exe` со [страницы релизов](../../releases/latest).
+1. Скачайте `prosvet-0.1.7.exe` со [страницы релизов](../../releases/latest).
 2. Сверьте контрольную сумму, инструкция ниже.
 3. Запустите файл.
 
@@ -50,7 +50,7 @@
 - Рядом с установщиком всегда лежит `checksums.txt`. Сверьте:
 
   ```powershell
-  Get-FileHash .\prosvet-0.1.0.exe -Algorithm SHA256
+  Get-FileHash .\prosvet-0.1.7.exe -Algorithm SHA256
   ```
 
   Строка должна совпасть с той, что в `checksums.txt`. Не совпала - не запускайте.
